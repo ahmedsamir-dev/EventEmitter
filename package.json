@@ -1,0 +1,17 @@
+{
+  "name": "eventemitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "events.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node ./dist/main.js\"",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "tsc-watch": "^6.0.0"
+  }
+}
